@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--stylesheet link-->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/reponsive.css" />
+
     <!--google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,6 +26,9 @@
       src="https://kit.fontawesome.com/ae10eaf84c.js"
       crossorigin="anonymous"
     ></script>
+    <!--stylesheet link-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reponsive.css" />
 
     <title>OmniFood</title>
   </head>
@@ -37,17 +38,21 @@
       <img class="logo" src="img\omnifood-logo.png" />
       <nav>
         <ul class="main-nav">
-          <li><a class="main-nav-link" href="#">How It Works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li>
+            <a class="main-nav-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonial-id">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
           <li><a class="main-nav-link nav-CTA" href="#">Try For Free</a></li>
         </ul>
+        <button class="mobile-nav-btn">
+          <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+          <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+        </button>
       </nav>
-      <button class="mobile-nav-btn">
-        <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
-        <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
-      </button>
     </header>
 
     <!--header ends-->
@@ -67,7 +72,7 @@
               </p>
             </div>
 
-            <a class="big-btn btn" href="#">Start Eating well</a>
+            <a class="big-btn btn" href="#cta">Start Eating well</a>
             <a class="small-btn btn" href="#">Leran More</a>
             <div class="delivered-meals">
               <div class="customer-imgs">
@@ -110,7 +115,7 @@
     <!-- Features Section Ends  -->
     <!-- *************************************************** -->
     <!-- How-It-Works-sec -->
-    <section class="how-it-works-sec">
+    <section class="how-it-works-sec" id="how-it-works">
       <div class="container">
         <h3 class="title-tag">How It Works</h3>
         <h1 class="secondary-title">
@@ -170,7 +175,7 @@
     <!-- steps-to-do-section-Ends -->
     <!-- *************************************************** -->
     <!-- Meals-Sec-Starts -->
-    <section class="meals-sec">
+    <section class="meals-sec" id="meals">
       <div class="container">
         <p class="title-tag text-center">Meals</p>
         <h2 class="secondary-title text-center">
@@ -342,7 +347,7 @@
     <!-- *************************************************** -->
 
     <!-- Testimonial-Section-Starts -->
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="testimonial-id">
       <div class="testimonials-container">
         <span class="title-tag">Testimonials</span>
         <h2 class="secondary-title">Once you try it, you can't go back</h2>
@@ -493,7 +498,7 @@
     <!-- Testimonial-section -Ends -->
     <!-- *************************************************** -->
     <!-- pricing-section-starts -->
-    <section class="pricing-sec">
+    <section class="pricing-sec" id="pricing">
       <div class="container">
         <p class="title-tag">PRICING</p>
         <h2 class="secondary-title">Eating well without breaking the bank</h2>
@@ -658,7 +663,7 @@
     <!-- *************************************************** -->
 
     <!-- CTA-Section- -Starts -->
-    <section class="CTA-sec">
+    <section class="CTA-sec" id="cta">
       <div class="container">
         <div class="cta-content">
           <div class="cta-text-box">
